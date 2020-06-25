@@ -1,0 +1,90 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-rows: 100px 1fr 75px;
+  grid-template-columns: 150px 1fr 150px;
+  height: 100vh;
+  width: 100vw;
+}
+
+a:hover {
+  text-decoration: none;
+  font-size: larger;
+  color: black;
+}
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a:active{
+  color: black;
+  text-decoration: none;
+}
+
+header {
+  grid-row: 1;
+  grid-column: 1 / span 3;
+  background: lightcoral;
+  font-size: 3vw;
+  font-family: cursive;
+  padding: 3vw;
+  text-align: center;
+}
+
+main {
+  grid-row: 2 ;
+  grid-column: 2;
+  background: darkgrey;
+}
+.content {
+  background: lightgrey;
+  font-family: "Fresca",Arial, Helvetica, sans-serif;
+  font-size: 1.5vw;
+  padding: 1vw;
+  margin: 2vw;
+  padding: 2vw;
+  /*border: solid yellow 3px;*/
+}
+
+.left {
+  grid-row: 2;
+  grid-column: 1;
+  background: white;
+  padding: 1vw;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 1.5vw;
+  /*border: solid yellow 3px;*/
+}
+
+
+.right {
+  grid-row: 2;
+  grid-column: 3;
+  background: darkgrey;
+}
+
+footer {
+  grid-row: 3;
+  grid-column: 1 / span 3;
+  background: lightcoral;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1vw;
+  padding: 3vw;
+  text-align: center;
+}
+
+ img {
+   height: 200px;
+   background-color: lightslategrey;
+   border: 10px solid red;
+   padding: 20px;
+   margin: 20px;
+ }
