@@ -70,24 +70,39 @@ ul {
   justify-content: flex-start;
   align-content: flex-start;
   background: darkgrey;
+  padding: 3px;
 }
 
 #home {
   background: lightgrey;
   color: black;
+  padding: 3px;
+  margin: 3px;
+}
+#aboutme {
+  background: lightgrey;
+  color: black;
+  padding: 3px;
+  margin: 3px;
+}
+#projects {
+  background: lightgrey;
+  color: black;
+  padding: 3px;
+  margin: 3px;
 }
 #home:hover{
-  background: darkgrey;
+  background: black;
   color: white;
 }
 
 #aboutme:hover{
-  background: darkgrey;
+  background: black;
   color: white;
 }
 
 #projects:hover{
-  background: darkgrey;
+  background: black;
   color: white;
 }
 
