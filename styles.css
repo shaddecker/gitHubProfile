@@ -1,5 +1,3 @@
-
-
 body {
   margin: 0;
   padding: 0;
@@ -23,7 +21,7 @@ a:link {
   color: black;
   text-decoration: none;
 }
-a:active{
+a:active {
   color: black;
   text-decoration: none;
 }
@@ -39,13 +37,13 @@ header {
 }
 
 main {
-  grid-row: 2 ;
+  grid-row: 2;
   grid-column: 2;
   background: darkgrey;
 }
 .content {
   background: lightgrey;
-  font-family: "Fresca",Arial, Helvetica, sans-serif;
+  font-family: "Fresca", Arial, Helvetica, sans-serif;
   font-size: 1.5vw;
   padding: 1vw;
   margin: 2vw;
@@ -91,17 +89,17 @@ ul {
   padding: 3px;
   margin: 3px;
 }
-#home:hover{
+#home:hover {
   background: black;
   color: white;
 }
 
-#aboutme:hover{
+#aboutme:hover {
   background: black;
   color: white;
 }
 
-#projects:hover{
+#projects:hover {
   background: black;
   color: white;
 }
@@ -134,10 +132,10 @@ footer {
   text-align: center;
 }
 
- img {
-   height: 200px;
-   background-color: lightslategrey;
-   border: 10px solid red;
-   padding: 20px;
-   margin: 20px;
- }
+img {
+  height: 200px;
+  background-color: lightslategrey;
+  border: 10px solid red;
+  padding: 20px;
+  margin: 20px;
+}
